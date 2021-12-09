@@ -5,6 +5,7 @@
   "author": "Henric Trotzig <henric.trotzig@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "dotenv": "^10.0.0",
     "happo.io": "^6.8.0"
   }
 }
