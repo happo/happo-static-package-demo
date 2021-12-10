@@ -17,3 +17,12 @@ happoStatic.registerExample({
     document.body.innerHTML = '<div style="background-color:blue">Hello</div>';
   },
 });
+
+happoStatic.registerExample({
+  component: 'Hello',
+  variant: 'chrome-large only',
+  render: () => {
+    document.body.innerHTML = '<div style="background-color:yellow">Hello</div>';
+  },
+  targets: ['chrome-large'],
+});
